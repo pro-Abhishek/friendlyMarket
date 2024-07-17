@@ -5,7 +5,7 @@ import { useEffect } from "react";
 const CartContext = createContext();
 const getLocalCartData = () => {
   let localCartData = localStorage.getItem("MyShop");
-  if (localCartData == []) {
+  if (localCartData === null) {
     return [];
   } else {
     return JSON.parse(localCartData);
@@ -44,6 +44,7 @@ const CartProvider = ({ children }) => {
     dispatch({ type: "TOTAL_CART_ITEM" });
     dispatch({ type: "TOTAL_AMOUNT" });
     localStorage.setItem("MyShop", JSON.stringify(state.cart));
+    getLocalCartData();
   }, [state.cart]);
 
   return (

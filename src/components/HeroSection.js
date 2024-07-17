@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import heroImg from "../images/hero.jpg";
 import button, { Button } from "../styles/Button";
 const HeroSection = ({ dataname, msg }) => {
   return (
@@ -18,7 +19,7 @@ const HeroSection = ({ dataname, msg }) => {
           <div className="hero-section-image">
             <figure>
               <img
-                src="images/hero.jpg"
+                src={heroImg}
                 alt="hero section image"
                 className="img-style"
               />

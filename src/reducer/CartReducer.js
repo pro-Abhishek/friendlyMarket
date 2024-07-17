@@ -30,6 +30,7 @@ const CartReducer = (state, action) => {
       };
     } else {
       let cartProduct;
+
       cartProduct = {
         id: id + color,
         name: product.name,
@@ -39,6 +40,7 @@ const CartReducer = (state, action) => {
         price: product.price,
         max: product.stock,
       };
+      console.log("product is-" + cartProduct);
       return {
         ...state,
         cart: [...state.cart, cartProduct],

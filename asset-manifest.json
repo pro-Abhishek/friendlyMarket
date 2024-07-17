@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/friendlyMarket/static/css/main.e6c13ad2.css",
-    "main.js": "/friendlyMarket/static/js/main.809717cb.js",
+    "main.js": "/friendlyMarket/static/js/main.10dceb89.js",
     "static/js/787.34115356.chunk.js": "/friendlyMarket/static/js/787.34115356.chunk.js",
+    "static/media/hero.jpg": "/friendlyMarket/static/media/hero.b586ec90be71b6bea8cf.jpg",
+    "static/media/abhishek1.png": "/friendlyMarket/static/media/abhishek1.3c3957bc7c0f4a974b82.png",
     "index.html": "/friendlyMarket/index.html",
     "main.e6c13ad2.css.map": "/friendlyMarket/static/css/main.e6c13ad2.css.map",
-    "main.809717cb.js.map": "/friendlyMarket/static/js/main.809717cb.js.map",
+    "main.10dceb89.js.map": "/friendlyMarket/static/js/main.10dceb89.js.map",
     "787.34115356.chunk.js.map": "/friendlyMarket/static/js/787.34115356.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.809717cb.js"
+    "static/js/main.10dceb89.js"
   ]
 }
